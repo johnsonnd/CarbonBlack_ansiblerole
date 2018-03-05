@@ -1,0 +1,8 @@
+# tasks install file for CarbonBlack roles
+
+- name: ensure CarbonBlack package is installed 
+  yum:
+      name: CarbonBlack
+      yum:
+        name: CarbonBlack
+        state: present

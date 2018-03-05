@@ -1,0 +1,6 @@
+---
+# handlers file for carbonblack role
+    - name: restart carbonblack
+      service:
+        name: carbonblack
+        state: restarted

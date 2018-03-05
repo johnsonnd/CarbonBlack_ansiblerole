@@ -1,0 +1,7 @@
+# tasks service file for CarbonBlack roles
+
+- name: ensure CarbonBlack is enabled and started
+  systemd:
+    name: CarbonBlack
+    enabled: True
+    state: started 

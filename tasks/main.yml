@@ -1,0 +1,5 @@
+---
+# tasks file for carbonblack CarbonBlack roles
+- include: install.yml
+- include: configure.yml
+- include: service.yml
